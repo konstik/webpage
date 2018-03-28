@@ -1,6 +1,6 @@
 $(function(){
 	// GET api/lebenslauf.json
-	var restAPI = 'http://127.0.0.1:1337/lebenslauf/api/lebenslauf.json'
+	var restAPI = 'http://127.0.0.1:1337/lebenslauf/webpage/api/lebenslauf.json'
 	$.ajax({
 		url: restAPI,
 		type: 'GET',
