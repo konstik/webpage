@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="description" content="description"/>
+		<meta name="keywords" content="keywords"/> 
+		<meta name="author" content="author"/> 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<style>
+			body{ 
+				font-size: 13px;
+				background: #f1f1f1;
+			}
+			.content {
+				width: 1030px;
+				margin: 20px auto;
+				background: #fff;
+				padding: 20px;
+			 	box-shadow: 0px 15px 10px -15px #111;
+			}
+			.foto{}
+			.foto img{width:50%;float:right;}
+			ul{list-style-type:none;}
+
+			.bio h3,
+			.jahrgangs h3,
+			.praktika h3,
+			.kenntnisse h3,
+			.sprache h3,
+			.references h3 {
+				font-size: 18px;
+				padding: 10px;
+				border-left: 3px solid #ff6600;
+				background: #eee;
+			}
+			.biografie ul{
+				padding: 0 15px;
+			}
+			.jahrgangs ul,
+			.praktika ul,
+			.kenntnisse ul,
+			.sprache ul,
+			.references ul {
+				border-bottom: 1px solid #eee;
+				padding: 15px 10px;
+				margin-bottom: 0;
+			}
+			.jahrgangs ul:last-child,
+			.praktika ul:last-child,
+			.kenntnisse ul:last-child,
+			.sprache ul:last-child,
+			.references ul:last-child {
+				border-bottom: none;
+			}
+			.jahrgangs ul li,
+			.praktika ul li,
+			.kenntnisse ul li,
+			.sprache ul li,
+			.references ul li {
+				line-height: 21px;
+			}
+			.footer {
+				padding: 20px;
+				text-align: center;
+				color: #666;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<!-- NavBar -->
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#">Brand</a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+			        <li class="active"><a href="#">Über mich <span class="sr-only">(current)</span></a></li>
+			        <li><a href="#">Ziele</a></li>
+			        <li><a href="#">Lebenslauf</a></li>
+			        <li><a href="#">Kontakt</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+			<div class="content">
+				<h1>LEBENSLAUF</h1>
+
+				<div class="biografie">
+					<ul id="bio"></ul>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="jahrgangs">
+							<h3>Jahrsgang</h3>
+							<span id="jahrgangs"></span>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="praktika">
+							<h3>Praktika</h3>
+							<span id="praktika"></span>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="kenntnisse">
+							<h3>Meine Kenntnisse</h3>
+							<span id="kenntnisse"></ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="sprache">
+							<H3>Sprachen</h3>
+							<span id="sprachen"></ul>
+						</div>
+					</div>
+				</div>
+				
+				<div id=""></div>
+			</div>
+			<div class="footer">
+				<p>Copyright © Konstantin Diyahkov 2018</p>
+			</div>
+		</div>
+
+		<script src="./js/plugins/jquery-2.1.3.min.js"></script>
+		<script src="./js/base/ubermich.js"></script>
+		<script src="./js/base/ziele.js"></script>
+		<script src="./js/base/Lebenslauf.js"></script>
+		<script src="./js/base/kontakt.js"></script>
+	</body>
+</html>		

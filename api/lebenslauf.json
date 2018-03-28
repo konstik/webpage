@@ -1,0 +1,117 @@
+{  
+   "bio":{  
+      "name":"Konstantin Diyachkov",
+      "adresse":"Richard-Sorge Str 63",
+      "plz":"10249",
+      "mobil":"0160 97 60 68 94",
+      "mail":"kostik_74@yahoo.de",
+      "geburt":"21.05.74",
+      "stadtsangehorigkeit": "Russisch"
+   },
+   "jahrgangs":[  
+      {  
+      	 "firma": "JobAdPartner",
+         "jahr_gang":"2006-2013",
+         "title":"Frontend",
+         "beschaeftigungsart":"Fest Angestellt"
+      },
+      {  
+      	 "firma" :"Atala",	
+         "jahr_gang":"2003-2006",
+         "title":"Frontend",
+         "beschaeftigungsart":"Fest Angestellt"
+      },
+      {  
+      	 "firma" : "ProPatientMedien",
+         "jahr_gang":"1991-1997",
+         "title":"Frontend",
+         "beschaeftigungsart":"Fest Angestellt"
+      },
+      {  
+      	 "firma" : "Remtsma",
+         "jahr_gang":"1981-1991",
+         "title":"Frontend",
+         "beschaeftigungsart":"Fest Angestellt"
+      }
+   ],
+   "praktika":[  
+      {  
+         "firma":"123",
+         "jahr":"123"
+      },
+      {  
+         "firma":"123",
+         "jahr":"1234"
+      },
+      {  
+         "firma":"1234",
+         "jahr":"1234"
+      },
+      {  
+         "firma":"1234",
+         "jahr":"1234"
+      },
+      {  
+         "firma":"1234",
+         "jahr":"1234"
+      }
+   ],
+   "kenntnisse":[  
+      {  
+         "name":"Javascript",
+         "level":"10"
+      },
+      {  
+         "name":"Sass",
+         "level":"10"
+      },
+      {  
+         "name":"PHP-Symphony",
+         "level":"10"
+      },
+      {  
+         "name":"HTML",
+         "level":"10"
+      }
+   ],
+   "sprache":[  
+      {  
+         "name":"Deutsch",
+         "level":"10"
+      },
+      {  
+         "name":"Russisch",
+         "level":"10"
+      },
+      {  
+         "name":"Java",
+         "level":"10"
+      },
+      {  
+         "name":"Indonesisch",
+         "level":"10"
+      },
+      {  
+         "name":"Türk",
+         "level":"10"
+      }
+   ],
+   "references":[  
+      {  
+         "name":"Atala",
+         "branche":"Einzel händler"
+      },
+      {  
+         "name":"JobAd",
+         "branche":"Medien Agenturen"
+      },
+      {  
+         "name":"Alliance",
+         "branche":"Versicherung"
+      },
+      {  
+         "name":"Dönner bruder",
+         "branche":"Einzel händler"
+      }
+   ]
+}
