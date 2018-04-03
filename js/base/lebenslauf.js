@@ -62,6 +62,7 @@ $(function(){
 			}
 			
 			// REFERENCES
+			var _reference = data.references;
 
 			//OUTPUT
 			$('#bio').html(bio)
