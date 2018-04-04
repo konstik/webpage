@@ -1,8 +1,11 @@
-[
-	{
-		"headline": "Über mich",
-		"first_text": "Bavaria ipsum dolor sit amet Heimatland a ganze Hoiwe ned woar Obazda wolpern, hod i hab an Kneedl vui huift vui! Milli und glei wirds no fui lustiga Haferl is ma Wuascht. Nix Spotzerl Heimatland a Hoiwe, a liabs Deandl Weiznglasl gfreit mi. Servas jo mei is des schee Marei muass. Wolpern gor Wurscht ned mechad jo mei is des schee zwoa. Biawambn i hob di narrisch gean wui Mamalad, nois oa auf’d Schellnsau um Godds wujn! Kimmt Guglhupf wos schoo glacht. Sauba hi Charivari hob i an Suri heid gfoids ma sagrisch guad hogg di hera heitzdog in da greana Au. Guglhupf ned nimma wo hi resch abfieseln. Is wos g’hupft wia gsprunga Spuiratz, nimmds a ganze! Vo de a Hoiwe dei blärrd Blosmusi, Schdarmbeaga See. Da Kini Maßkruag es hinter’m Berg san a no Leit Prosd und sei Fünferl, Sauakraud des wiad a Mordsgaudi!",
-		"second_text": "No in da da Hetschapfah Musi Schaung kost nix, Gstanzl Deandlgwand. Namidog zwoa Jodler Sepp Resi. Mim Reiwadatschi Almrausch, eana i bin a woschechta Bayer Griasnoggalsubbm. Steckerleis i mechad dee Schwoanshaxn i moan scho aa des Weißwiaschd nomoi? Maßkruag da a geh ned Reiwadatschi, Milli nackata. Griasd eich midnand auf gehds beim Schichtl nimmds noch da Giasinga Heiwog des wiad a Mordsgaudi nix eam i bin a woschechta Bayer nia need, i hob di liab back mas. Eam d’ is mei, da um Godds wujn baddscher. Xaver gwihss sog i, naa Ramasuri. Goaßmaß auszutzeln no Sauwedda, griasd eich midnand kimmt weida in da greana Au! Freibia da, hog di hi d’, Guglhupf. Oa in da greana Au heid gfoids ma sagrisch guad Graudwiggal, Trachtnhuat Brodzeid imma um Godds wujn griaß God beinand wia und! Gfreit mi nackata wea ko, dea ko dei,",
-		"thirt_text": "Kumm geh luja singd auszutzeln hawadere midananda etza Vergeltsgott, Sauwedda. Hemad des muas ma hoid kenna a liabs Deandl des is schee pfundig. A Hoiwe sauba woaß, zua. Muass i hob di liab Brodzeid, hod: Bitt wos nix Gwiass woass ma ned Graudwiggal Ramasuri Woibbadinga Ewig und drei Dog! Gfreit mi no a Maß Maßkruag kumm geh. Hendl Milli wos jo mei mehra des wiad a Mordsgaudi eam Mongdratzal auf’d Schellnsau oamoi um Godds wujn: Namidog Buam mei Watschnpladdla, kimmt und glei wirds no fui lustiga! Vergeltsgott Buam nia, fensdaln wea ko, dea ko umma gor Engelgwand. Bussal mi heid gfoids ma sagrisch guad großherzig Guglhupf measi und glei wirds no fui lustiga hogg di hera i hob di narrisch gean! Ozapfa Baamwach Kuaschwanz hinter’m Berg san a no Leit Musi Sepp jo mei is ma Wuascht Graudwiggal Wiesn a! Weißwiaschd wos weida, ?"
-	}
-]
+{
+
+  "ueber":{
+
+    "text" : "Um mit anderen via Git zusammenzuarbeiten, musst Du wissen, wie Du auf externe (engl. „remote“) Repositorys zugreifen kannst. Remote Repositorys sind Versionen Deines Projektes, die im Internet oder irgendwo in einem anderen Netzwerk gespeichert sind. Du kannst mehrere solcher Repositorys haben und Du kannst jedes davon entweder nur lesen oder lesen und schreiben. Mit anderen via Git zusammenzuarbeiten impliziert, solche Repositorys zu verwalten und Daten aus ihnen herunter- oder heraufzuladen, um Deine Arbeit für andere verfügbar zu machen. Um Remote Repositorys zu verwalten, muss man wissen, wie man sie anlegt und wieder entfernt, wenn sie nicht mehr verwendet werden, wie man externe Branches verwalten und nachverfolgen kann, und mehr. In diesem Kapitel werden wir auf diese Aufgaben eingehen." 
+  },
+  "these":{
+    "title":"Wenn Du mehr als ein Remote Repository konfiguriert hast, zeigt der Befehl alle an. Für mein eigenes Grit Repository sieht das beispielsweise wie folgt aus:"
+  }
+
+}

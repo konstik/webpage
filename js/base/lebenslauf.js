@@ -13,6 +13,7 @@ $(function(){
 			kenntnisse = ''
 			sprache = '',
 			references = '';
+			hobby = '';
 
 			// BIO
 			bio += '<li>' + data.bio.name + '</li>';
@@ -41,6 +42,8 @@ $(function(){
 				praktika += '<ul>';
 				praktika += '<li> Firma: ' + _praktika[i].firma + '</li>';
 				praktika += '<li> Jahr: ' + _praktika[i].jahr + '</li>';
+				praktika += '<li> Dauer: ' + _praktika[i].dauer + '</li>';
+				praktika += '<li> Tätigkeiten:' + _praktika[i].tat + '</li>';
 				praktika += '</ul>';
 			}
 
@@ -57,12 +60,32 @@ $(function(){
 			var _sprache = data.sprache;
 			for(var i = 0; i < _sprache.length; i++){
 				sprache += '<ul>';
-				sprache += '<li> Name: ' + _sprache[i].name + '</li>'; 
+				sprache += '<li> Name: ' + _sprache[i].name + '</li>';
+				sprache += '<li> Level: ' + _sprache[i].level + '</li>';  
 				sprache += '</ul>';
 			}
 			
+
+			//Hobby
+
+			var _hobby=data.hobby;
+			for(var i = 0; i < _hobby.length; i++){
+				hobby += '<ul>';
+				hobby += '<li>'+ _hobby[i].name + '</li>';
+				hobby += '</ul>';
+			}
+
+
 			// REFERENCES
-			var _reference = data.references;
+			var _references = data.references;
+			for(var i = 0; i <_references.length; i++){
+				references +='<ul>';
+				references +='<li Name:>'+ _references[i].name + '</li>'; 
+				//references +='<li url>' + _references[i].url +'</li>';
+				references +='</ul>';
+			}
+
+			console.log( data.references[1]);
 
 			//OUTPUT
 			$('#bio').html(bio)
@@ -70,6 +93,8 @@ $(function(){
 			$('#praktika').html(praktika)
 			$('#kenntnisse').html(kenntnisse);
 			$('#sprachen').html(sprache);
+			$('#hobby').html(hobby)
+			$('#references').html(references);
 			
 		}
 	});
